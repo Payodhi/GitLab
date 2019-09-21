@@ -1,0 +1,8 @@
+#! /usr/bin/bash
+echo "Enter No 1:" 
+read a
+Echo "Enter No 2:"
+read b
+echo "Final Result:"
+sum=$(expr "$a" + "$b")
+echo "Sum is $sum"
